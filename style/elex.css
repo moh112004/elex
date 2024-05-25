@@ -19,15 +19,36 @@ body {
     font-size: 30px;
     color: white;
 }
-
-.panel {
-    margin-top: 50px;
+@media (max-width: 1000px) {
+    .nav p {
+        font-size: 22px;
+    }
 }
-
+h1 {
+    font-weight: bold;
+}
+.panel {
+    margin-top: 20px;
+}
+.tow-lines {
+    text-align: right;
+}
+.dropdown-toggle {
+    font-size: 25px;
+}
+@media (max-width: 1000px) {
+    .dropdown-toggle {
+        font-size: 15px;
+    }
+}
+.dropdown-menu {
+text-align: right;
+}
 li a {
     font-size: 20px;
 }
-
-.dropdown-toggle {
-    font-size: 25px;
+@media (max-width: 1000px) {
+    li a {
+        font-size: 13px;
+    }
 }
